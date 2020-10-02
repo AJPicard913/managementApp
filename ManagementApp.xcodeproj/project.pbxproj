@@ -15,6 +15,16 @@
 		0912003D252696610079E5B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091200122526965E0079E5B3 /* ContentView.swift */; };
 		0912003E252696610079E5B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09120013252696610079E5B3 /* Assets.xcassets */; };
 		0912003F252696610079E5B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09120013252696610079E5B3 /* Assets.xcassets */; };
+		0912004F25269FCE0079E5B3 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0912004E25269FCE0079E5B3 /* Header.swift */; };
+		0912005025269FCE0079E5B3 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0912004E25269FCE0079E5B3 /* Header.swift */; };
+		091200522526A04B0079E5B3 /* CalendarCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091200512526A04B0079E5B3 /* CalendarCard.swift */; };
+		091200532526A04B0079E5B3 /* CalendarCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091200512526A04B0079E5B3 /* CalendarCard.swift */; };
+		091200552526A36D0079E5B3 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091200542526A36D0079E5B3 /* Search.swift */; };
+		091200562526A36D0079E5B3 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091200542526A36D0079E5B3 /* Search.swift */; };
+		091200582526A4690079E5B3 /* Taskbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091200572526A4690079E5B3 /* Taskbar.swift */; };
+		091200592526A4690079E5B3 /* Taskbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091200572526A4690079E5B3 /* Taskbar.swift */; };
+		0912005B2526A5A80079E5B3 /* Projects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0912005A2526A5A80079E5B3 /* Projects.swift */; };
+		0912005C2526A5A80079E5B3 /* Projects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0912005A2526A5A80079E5B3 /* Projects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,11 @@
 		09120033252696610079E5B3 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09120037252696610079E5B3 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		09120039252696610079E5B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0912004E25269FCE0079E5B3 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		091200512526A04B0079E5B3 /* CalendarCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCard.swift; sourceTree = "<group>"; };
+		091200542526A36D0079E5B3 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		091200572526A4690079E5B3 /* Taskbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taskbar.swift; sourceTree = "<group>"; };
+		0912005A2526A5A80079E5B3 /* Projects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projects.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +115,11 @@
 			children = (
 				091200112526965E0079E5B3 /* ManagementAppApp.swift */,
 				091200122526965E0079E5B3 /* ContentView.swift */,
+				0912005A2526A5A80079E5B3 /* Projects.swift */,
+				091200572526A4690079E5B3 /* Taskbar.swift */,
+				091200542526A36D0079E5B3 /* Search.swift */,
+				091200512526A04B0079E5B3 /* CalendarCard.swift */,
+				0912004E25269FCE0079E5B3 /* Header.swift */,
 				09120013252696610079E5B3 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -308,7 +328,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0912005B2526A5A80079E5B3 /* Projects.swift in Sources */,
 				0912003C252696610079E5B3 /* ContentView.swift in Sources */,
+				091200522526A04B0079E5B3 /* CalendarCard.swift in Sources */,
+				091200582526A4690079E5B3 /* Taskbar.swift in Sources */,
+				091200552526A36D0079E5B3 /* Search.swift in Sources */,
+				0912004F25269FCE0079E5B3 /* Header.swift in Sources */,
 				0912003A252696610079E5B3 /* ManagementAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +342,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0912005C2526A5A80079E5B3 /* Projects.swift in Sources */,
 				0912003D252696610079E5B3 /* ContentView.swift in Sources */,
+				091200532526A04B0079E5B3 /* CalendarCard.swift in Sources */,
+				091200592526A4690079E5B3 /* Taskbar.swift in Sources */,
+				091200562526A36D0079E5B3 /* Search.swift in Sources */,
+				0912005025269FCE0079E5B3 /* Header.swift in Sources */,
 				0912003B252696610079E5B3 /* ManagementAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

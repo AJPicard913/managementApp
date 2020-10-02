@@ -9,8 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        ZStack {
+            VStack {
+                Header()
+                    .padding(.top, 30)
+                CalendarCard()
+                    .padding(.bottom, 10)
+                Search()
+                    .padding(.top, 5)
+                Projects()
+                    .padding(.vertical, 8)
+                Taskbar()
+            }
+        }
+        .frame(maxHeight: .infinity)
+        .edgesIgnoringSafeArea(.all)
+
+                
     }
 }
 
@@ -19,3 +35,15 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
